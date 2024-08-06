@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import './todo.css'
 import { useState, useRef } from 'react';
 import { IoMdDoneAll } from "react-icons/io";
