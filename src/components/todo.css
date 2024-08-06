@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #012727d7;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #8ba0b6;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-left: -12px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: #ffffff;
+}
+.list-items .list-item-list {
+  flex: 1;
+}
+
+#list-item {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.list-items .icon {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+  padding-left: 5px;
+}
+
+#complete {
+  color: green;
+}
+
+#edit {
+  color: yellow;
+}
+
+#delete {
+  color: red;
+}
+
